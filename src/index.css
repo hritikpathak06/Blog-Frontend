@@ -8,10 +8,7 @@
 .container {
   width: 100vw;
   min-height: 100vh;
-  background: #0ee6e2;
+  background: #f295e6;
   transition: 0.5s;
 }
 
-.container.dark {
-  background: #222;
-}
