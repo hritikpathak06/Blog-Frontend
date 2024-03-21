@@ -1,8 +1,7 @@
 import "./Style.css";
+import { FaSnowman } from "react-icons/fa";
 
 export default function Script() {
-
-  
   return (
     <div className="navbar">
       <ul>
@@ -25,7 +24,8 @@ export default function Script() {
       </div>
       <p className="font">Login</p>
       <span class="material-symbols-outlined">login</span>
-      <span class="material-symbols-outlined">account_circle</span>
+      {/* <span class="material-symbols-outlined">account_circle</span> */}
+      <span><FaSnowman /></span>
     </div>
   );
 }

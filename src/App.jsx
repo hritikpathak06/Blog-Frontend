@@ -4,7 +4,7 @@ import Script from "./Components/Header/Script";
 function App() {
   return (
     <div className="container">
-      <Script/>
+      <Script />
     </div>
   );
 }
